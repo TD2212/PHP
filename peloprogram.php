@@ -10,7 +10,12 @@ echo "Current time".date("H:m:s")."<br>";
 ● M- Represents the Three letter of Month(Jan-Dec) 
 ● Y - Represents a year (in four digits) 
 ● y-  Represents the year (in two digits) 
-● l (lowercase 'L') - Represents the day of the week */
+● l (lowercase 'L') - Represents the day of the week 
+● H - 24-hour format of an hour (00 to 23) 
+● h - 12-hour format of an hour with leading zeros (01 to 12) 
+● i - Minutes with leading zeros (00 to 59) 
+● s - Seconds with leading zeros (00 to 59) 
+● a - Lowercase Ante meridiem and Post meridiem (am or pm)*/
 echo "Current date".date("d:m:y")."<br>";
 //echo "Current week".date("D:L:Y");
 if($hour>12){
